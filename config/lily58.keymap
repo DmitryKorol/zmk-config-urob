@@ -1,0 +1,24 @@
+/* source key position labels */
+#include "zmk-helpers/key-labels/lily58.h"
+
+/* map the Lily's extra keys */
+#define X_LT  \
+                &none &none &none &none &none &none       &none &none &none &none &none &none \ 
+                &none                                                                           // 2 row, 1 col
+#define X_RT    &none                                                                           // 2 row, 12 col
+
+#define X_LM    &none // 3 row, 1 col
+#define X_RM    &none // 3 row, 12 col
+
+#define X_LB    &none             // 4 row, 1 col
+#define X_MB    &none       &none // 4 row, 7-8 cols
+#define X_RB    &none             // 4 row, 14 col
+
+#define X_LH    &none &none // 5 row, 1-2 cols
+#define X_RH    &none &none // 5 row, 7-8
+
+/* activate bluetooth */
+#define CONFIG_WIRELESS
+
+/* source the main keymap */
+#include "base.keymap"
