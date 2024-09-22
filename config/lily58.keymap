@@ -1,5 +1,5 @@
 /* source key position labels */
-#include "zmk-helpers/key-labels/lily58.h"
+#include "lily58.h"
 
 /* map the Lily's extra keys */
 #define X_LT  \
