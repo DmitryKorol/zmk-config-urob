@@ -209,7 +209,7 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 #define YABAI_FULLS &hmr LALT LA(LS(M))
 
 #define LOCK_SCREEN &kp LG(LC(Q))
-#define SCREENSHOT  &kp LG(LC(LA(N4)))
+#define SCREENSHOT  &kp LG(LC(LS(N4)))
 
 /* Keymap */
 
