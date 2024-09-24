@@ -183,6 +183,9 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 #define YABAI_FLOAT &hmr LGUI LA(LS(T))
 #define YABAI_FULLS &hmr LALT LA(LS(M))
 
+#define LOCK_SCREEN &kp LG(LC(Q))
+#define SCREENSHOT  &kp LG(LC(LS(N4)))
+
 /* Keymap */
 
 ZMK_CONDITIONAL_LAYER(sys, FN NUM, SYS) // FN + NUM --> SYS.
