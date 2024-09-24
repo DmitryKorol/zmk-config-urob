@@ -219,6 +219,9 @@ ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 #define YABAI_FLOAT &hmr LGUI LA(LS(T))
 #define YABAI_FULLS &hmr LALT LA(LS(M))
 
+#define LOCK_SCREEN &kp LG(LC(Q))
+#define SCREENSHOT  &kp LG(LC(LA(N4)))
+
 /* Keymap */
 
 ZMK_CONDITIONAL_LAYER(sys, FN NUM, SYS)  // FN + NUM --> SYS
@@ -249,7 +252,7 @@ ZMK_LAYER(nav,
 
 ZMK_LAYER(fn,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT     &kp F12       &kp F7        &kp F8        &kp F9        ___             X_MT     ___           &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    &win_sleep      X_RT
+    X_LT     &kp F12       &kp F7        &kp F8        &kp F9        ___             X_MT     SCREENSHOT    &kp C_PREV    &kp C_VOL_UP  &kp C_NEXT    LOCK_SCREEN     X_RT
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LM     &hml LCTRL F11 &hml LALT F4 &hml LSHFT F5 &hml LGUI F6  ___             X_MM     ___           YABAI_FLOAT   VOL_DOWN      YABAI_FULLS   ___             X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
