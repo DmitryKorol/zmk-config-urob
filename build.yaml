@@ -15,9 +15,9 @@
 include:
 #  - board: planck_rev6
   - board: nice_nano_v2
-    shield: corneish_zen_left
+    shield: corne_left
   - board: nice_nano_v2
-    shield: corneish_zen_right
+    shield: corne_right
 #  - board: glove80_lh
 #  - board: glove80_rh
 #  - board: nice_nano_v2
