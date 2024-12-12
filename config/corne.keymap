@@ -1,6 +1,5 @@
 /* source key position labels */
-#include "corne.dtsi"
-#include "corne.h"
+#include "zmk-helpers/key-labels/36.h"
 
 /* map Zen's extra keys */
 #define X_LH  &kp LGUI      // thumb row, left
@@ -13,3 +12,4 @@
 #include "base.keymap"
 
 /* use 5-column layout for Zen */
+/{ chosen { zmk,physical-layout = &kgoh_jian_5col_layout; }; };
