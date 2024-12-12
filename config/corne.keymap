@@ -1,5 +1,5 @@
 /* source key position labels */
-#include "corne.dtsi"
+#include "zmk-helpers/key-labels/36.h"
 
 /* map Zen's extra keys */
 #define X_LH  &kp LGUI      // thumb row, left
