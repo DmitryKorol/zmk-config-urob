@@ -1,13 +1,12 @@
 #define CONFIG_WIRELESS
 #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                                      \
     ZMK_LAYER(                                                                                    \
-        name,
-        &none &none &none &none &none &none               &none &none &none &none &none &none
-        &none                            LT               RT                            &none
-        &none                            LM               RM                            &none
-        &none                            LB &none   &none RB                            &none
-                          &none &none    LH               RH    &none &none
-        
+        name,                                                                                     \
+        &none &none &none &none &none &none               &none &none &none &none &none &none     \
+        &none                            LT               RT                            &none     \
+        &none                            LM               RM                            &none     \
+        &none                            LB &none   &none RB                            &none     \
+                          &none &none    LH               RH    &none &none                       \
     )
 
 #include "lily58.h"
